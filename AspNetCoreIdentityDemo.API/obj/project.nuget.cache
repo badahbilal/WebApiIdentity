@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "NGvk2GKUXOFvgNZ/W7tOt85MD8ESRGGLC6N8E7nHR5a26Z5PYR+ZWB5tDQ+loouQ5cWnBm++WSSJLXZ0K96QwQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.API\\AspNetCoreIdentityDemo.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bbadah\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\bbadah\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\bbadah\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\bbadah\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\bbadah\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\bbadah\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}
