@@ -11,6 +11,9 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
+using AspNetCoreIdentityDemo.API.Models;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace AspNetCoreIdentityDemo.API
 {
@@ -26,6 +29,21 @@ namespace AspNetCoreIdentityDemo.API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+
+            // Configure EntityFramework With SQL Server
+            services.AddDbContext<ApplicationDbContext>(Options =>
+            {
+                Options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            });
+
+
+            // Configure Identity
+            services.AddIdentity<IdentityUser, IdentityRole>(options =>{
+                options.Password.RequireDigit = true;
+                options.Password.RequireLowercase = true;
+                options.Password.RequiredLength = 5;
+            }).AddEntityFrameworkStores<ApplicationDbContext>()
+                .AddDefaultTokenProviders();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
