@@ -1,3 +1,4 @@
+using System.Text;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -14,6 +15,8 @@ using Microsoft.OpenApi.Models;
 using AspNetCoreIdentityDemo.API.Models;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Authentication.JwtBearer;
+using Microsoft.IdentityModel.Tokens;
 
 namespace AspNetCoreIdentityDemo.API
 {
@@ -36,7 +39,6 @@ namespace AspNetCoreIdentityDemo.API
                 Options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-
             // Configure Identity
             services.AddIdentity<IdentityUser, IdentityRole>(options =>{
                 options.Password.RequireDigit = true;
@@ -44,6 +46,24 @@ namespace AspNetCoreIdentityDemo.API
                 options.Password.RequiredLength = 5;
             }).AddEntityFrameworkStores<ApplicationDbContext>()
                 .AddDefaultTokenProviders();
+
+            // Configure The Authentication services
+            services.AddAuthentication(auth => {
+                auth.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
+                auth.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
+            }).AddJwtBearer(options =>{
+                
+                // Setup the parameter of The Token
+                options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters{
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidAudience = "http://badah.me",
+                    ValidIssuer = "http://badah.me",
+                    RequireExpirationTime = true,
+                    IssuerSigningKey =  new SymmetricSecurityKey(Encoding.UTF8.GetBytes("This is the key that we will use in the encryption")),
+                    ValidateIssuerSigningKey = true
+                };
+            });            ;
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
