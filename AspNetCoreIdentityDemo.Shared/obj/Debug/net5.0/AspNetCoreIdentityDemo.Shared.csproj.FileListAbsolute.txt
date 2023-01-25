@@ -1,0 +1,12 @@
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\bin\Debug\net5.0\AspNetCoreIdentityDemo.Shared.deps.json
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\bin\Debug\net5.0\AspNetCoreIdentityDemo.Shared.dll
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\bin\Debug\net5.0\ref\AspNetCoreIdentityDemo.Shared.dll
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\bin\Debug\net5.0\AspNetCoreIdentityDemo.Shared.pdb
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\obj\Debug\net5.0\AspNetCoreIdentityDemo.Shared.csproj.AssemblyReference.cache
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\obj\Debug\net5.0\AspNetCoreIdentityDemo.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\obj\Debug\net5.0\AspNetCoreIdentityDemo.Shared.AssemblyInfoInputs.cache
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\obj\Debug\net5.0\AspNetCoreIdentityDemo.Shared.AssemblyInfo.cs
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\obj\Debug\net5.0\AspNetCoreIdentityDemo.Shared.csproj.CoreCompileInputs.cache
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\obj\Debug\net5.0\AspNetCoreIdentityDemo.Shared.dll
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\obj\Debug\net5.0\ref\AspNetCoreIdentityDemo.Shared.dll
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.Shared\obj\Debug\net5.0\AspNetCoreIdentityDemo.Shared.pdb

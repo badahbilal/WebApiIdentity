@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj": {}
+    "C:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj": {}
   },
   "projects": {
-    "c:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj": {
+    "C:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj",
+        "projectUniqueName": "C:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj",
         "projectName": "AspNetCoreIdentityDemo.Shared",
-        "projectPath": "c:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj",
+        "projectPath": "C:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj",
         "packagesPath": "C:\\Users\\bbadah\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\obj\\",
+        "outputPath": "C:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bbadah\\AppData\\Roaming\\NuGet\\NuGet.Config"

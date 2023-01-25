@@ -17,6 +17,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
+using AspNetCoreIdentityDemo.API.Services;
 
 namespace AspNetCoreIdentityDemo.API
 {
@@ -41,6 +42,7 @@ namespace AspNetCoreIdentityDemo.API
 
             // Configure Identity
             services.AddIdentity<IdentityUser, IdentityRole>(options =>{
+                // CONFIGURE THE PASSWORD
                 options.Password.RequireDigit = true;
                 options.Password.RequireLowercase = true;
                 options.Password.RequiredLength = 5;
@@ -57,13 +59,15 @@ namespace AspNetCoreIdentityDemo.API
                 options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters{
                     ValidateIssuer = true,
                     ValidateAudience = true,
-                    ValidAudience = "http://badah.me",
-                    ValidIssuer = "http://badah.me",
+                    //ValidAudience = "http://badah.me",
+                    //ValidIssuer = "http://badah.me",
                     RequireExpirationTime = true,
                     IssuerSigningKey =  new SymmetricSecurityKey(Encoding.UTF8.GetBytes("This is the key that we will use in the encryption")),
-                    ValidateIssuerSigningKey = true
+                    //ValidateIssuerSigningKey = true
                 };
-            });            ;
+            });         
+
+            services.AddScoped<IUserService,UserService>();
 
             services.AddControllers();
             services.AddSwaggerGen(c =>
@@ -86,6 +90,7 @@ namespace AspNetCoreIdentityDemo.API
 
             app.UseRouting();
 
+            app.UseAuthentication();
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>

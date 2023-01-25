@@ -64,3 +64,5 @@ C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDe
 C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.API\obj\Debug\net5.0\ref\AspNetCoreIdentityDemo.API.dll
 C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.API\obj\Debug\net5.0\AspNetCoreIdentityDemo.API.pdb
 C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.API\obj\Debug\net5.0\AspNetCoreIdentityDemo.API.genruntimeconfig.cache
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.API\bin\Debug\net5.0\AspNetCoreIdentityDemo.Shared.dll
+C:\Users\bbadah\Desktop\Dotnet Asp.net Core WebApi Identity\AspNetCoreIdentityDemo.API\bin\Debug\net5.0\AspNetCoreIdentityDemo.Shared.pdb

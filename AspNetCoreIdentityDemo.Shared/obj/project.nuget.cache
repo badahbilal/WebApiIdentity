@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Xvha8TjCK1hrqdCmScc4BEV2bW70h9JVjCl9yQqdx6F2xAONcl/FwhoIW4LtulM815rLOE9c7EoHLmCQsKxl/A==",
+  "dgSpecHash": "6sQVHqPwjwbsseW9xpip4RjhIo9Mw6RXaOmVV0yXKsEFudzW/md5FOex6wI8YYxyRm3vojiFrkXsEXK/MWbU9Q==",
   "success": true,
-  "projectFilePath": "c:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj",
+  "projectFilePath": "C:\\Users\\bbadah\\Desktop\\Dotnet Asp.net Core WebApi Identity\\AspNetCoreIdentityDemo.Shared\\AspNetCoreIdentityDemo.Shared.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
